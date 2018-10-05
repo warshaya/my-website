@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
+import { Home } from './home'
 
 class App extends Component {
   render() {
@@ -13,9 +14,11 @@ class App extends Component {
         <p className="App-intro">
         This be my new website!
         </p>
+        <Home />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
+

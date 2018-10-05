@@ -15,5 +15,6 @@ it('renders without crashing', () => {
 
 it('contains a child Home', () => {
   const wrapper = shallow(<App />)
-  console.log(wrapper.find(Home))
+  expect(wrapper.find(Home).get(0)).toBeDefined()
 })
+
